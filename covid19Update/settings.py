@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'notifier',
-    'background_task',
     'django_crontab',
     'webpush'
 ]
