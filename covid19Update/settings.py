@@ -18,7 +18,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 env = environ.Env()
 env_file = os.path.join(BASE_DIR, ".env")
-environ.Env.read_env(env_file)
+test_env_file = os.path.join(BASE_DIR, "test.env")
+environ.Env.read_env(test_env_file)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
